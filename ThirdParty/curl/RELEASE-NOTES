@@ -1,0 +1,37 @@
+curl and libcurl 7.69.1
+
+ Public curl releases:         190
+ Command line options:         230
+ curl_easy_setopt() options:   270
+ Public functions in libcurl:  82
+ Contributors:                 2128
+
+This release includes the following changes:
+
+ o
+
+This release includes the following bugfixes:
+
+ o MANUAL: update a dict-using command line
+ o tests: make sleeping portable by avoiding select [1]
+ o runtests.1: rephrase how to specify what tests to run [2]
+ o cirrus-ci: disable the FreeBSD 13 builds [3]
+
+This release includes the following known bugs:
+
+ o see docs/KNOWN_BUGS (https://curl.haxx.se/docs/knownbugs.html)
+
+This release would not have looked like this without help, code, reports and
+advice from friends like these:
+
+  Dan Fandrich, Daniel Stenberg, Fedor Korotkov, Marc Hörsken, Ray Satiro,
+  Steve Holme,
+  (6 contributors)
+
+        Thanks! (and sorry if I forgot to mention someone)
+
+References to bug reports and discussions on issues:
+
+ [1] = https://curl.haxx.se/bug/?i=5035
+ [2] = https://curl.haxx.se/bug/?i=5033
+ [3] = https://curl.haxx.se/bug/?i=5028
